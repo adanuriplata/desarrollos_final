@@ -1,0 +1,342 @@
+/*Estilos Generales*/
+html,body{
+margin:0px;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+
+figure{
+  display: inline-block;
+  margin: 0;
+}
+
+section{
+ background-color: #ece5f1;
+ margin: 0;
+}
+
+.amarillo{
+  color:rgb(249, 229, 69);
+}
+
+.inline{
+  display: inline-block;
+  width: 49%;
+}
+
+.flex-padre{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flex-padre-reversa{
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse
+}
+
+
+.img-100{
+    width: 100%;
+}
+
+.margin-top{
+  margin-top: 8%;
+}
+
+.margin-top-0{
+  margin-top: 0;
+}
+
+.area-texto{
+  padding: 30px;
+}
+
+.fuente-grande{
+  font-size: 45px;
+}
+
+.precio-desarrollos{
+
+}
+
+
+/*Fin estilos Generales*/
+
+.header{
+  background: url(../img/img-nuevo/Agaves_cover_responsive-min-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header .texto{
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+
+.header .texto h1{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+}
+
+.header .texto h1 span{
+  font-family: 'Oleo Script', cursive;
+  text-transform: none;
+}
+
+/*logos desarrollos*/
+.header .logos{
+  float: right;
+  margin: 25px;
+}
+
+.header .logos .agaves{
+  margin-right: 20px;
+}
+
+.header .logos .agaves img{
+  width: 80px;
+}
+
+.header .logos .jardines img{
+  width: 120px;
+}
+
+/*Fin seccion header*/
+
+/*inicio seccion Ambiente familiar*/
+
+
+
+.ambiente-familiar .area-texto{
+  padding: 30px;
+}
+
+
+
+
+/*Fin seccion ambiete familiar*/
+
+/*Inicio seccion estilo de vida iconos*/
+
+.estilo-de-vida{
+  background-color: #fff;
+  text-align: center;
+  color: rgb(187, 58, 108)
+}
+
+.estilo-de-vida h3{
+  font-size: 28px;
+}
+
+.estilo-de-vida ul li span{
+  font-size: 55px;
+}
+
+.estilo-de-vida ul li{
+  display: inline-block;
+  width: 96.109px;
+  padding: 30px 120px;
+}
+
+/*Fin seccion estilo de vida*/
+
+/*inicio seccion agaves*/
+
+
+/*Fin seccion Agaves*/
+
+/*Inicio seccion video*/
+
+.seccion-video{
+  background-color: #fff;
+  text-align: center;
+}
+
+.contenedor-video{
+  margin: 15px 120px;
+  border: solid 10px rgb(187, 58, 108);
+}
+
+.seccion-video .contenedor-video .video{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.seccion-video .contenedor-video .video iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*fin seccion Video*/
+
+/*Inicio seccion espacios*/
+
+.espacios{
+  background: url(../img/img-nuevo/seccionFormulario.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+}
+
+.espacios h3{
+  font-size: 35px;
+}
+
+.espacios .contenedor-iconos ul li{
+  display: inline-block;
+  width: 96.109px;
+  padding: 30px 120px;
+}
+
+.espacios .contenedor-iconos ul li span{
+  font-size: 59px;
+}
+
+
+/*Inicio seccion formulario*/
+
+.formulario{
+  /*background: url(../img/img-nuevo/seccionFormulario.png);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  height: 100%;
+  overflow: hidden;
+}
+
+.formulario .texto-formulario{
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  padding-top: 50px;
+}
+
+.formulario .get-response a{
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.formulario .texto-formulario .precio{
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 63px;
+  margin: 20px;
+}
+
+.formulario .logos-externos{
+  float: right;
+  padding-right: 8px;
+}
+
+.formulario .logos-externos figure{
+  margin: 10px;
+}
+
+.formulario .logos-externos .secon img{
+  width: 75px;
+}
+
+.formulario .logos-redes{
+  margin-left: 25px;
+}
+
+.formulario .logos-redes ul li{
+  display: inline-block;
+  font-size: 35px;
+  padding: 10px;
+}
+
+
+.formulario .logos-redes ul li a .icon-twitter{
+  color: cornflowerblue;
+}
+
+.formulario .logos-redes ul li a .icon-youtube{
+  color: red;
+}
+
+.formulario .logos-redes ul li a .icon-facebook2{
+  color: rgb(44, 65, 130);
+}
+
+/*Inicio Responsive*/
+
+@media only screen and (max-width: 500px){
+  .header .texto{
+    width: 95%;
+  }
+
+  .inline{
+    width: 100%;
+  }
+
+  .flex-padre{
+    flex-direction: column;
+
+  }
+
+  .flex-padre-reversa{
+    flex-direction: column-reverse;
+  }
+
+  .ambiente-familiar .area-texto{
+    padding: 0;
+  }
+
+  .seccion-agaves .area-texto{
+    padding: 0;
+  }
+
+  .seccion-jardines .area-texto{
+    padding: 0;
+  }
+
+  .seccion-video .contenedor-video{
+
+    margin: 0px 0px 40px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+  .formulario .texto-formulario .precio{
+    font-size: 53px;
+  }
+
+  .formulario .logos-externos{
+    display: none;
+  }
+
+  .formulario .logos-redes{
+    text-align: center;
+  }
+}
